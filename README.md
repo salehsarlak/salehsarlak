@@ -29,7 +29,7 @@
 ## 🖥️ whoami
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/main/assets/whoami-ironman.svg" alt="whoami" width="100%">
+  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/whoami.svg" alt="whoami" width="100%">
 </div>
 
 <br>
@@ -37,18 +37,12 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/main/assets/techstack-thor.svg" alt="tech stack" width="100%">
+  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/techstack.svg" alt="tech stack" width="100%">
 </div>
 
 <br>
 
 ## 💼 Experience
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/main/assets/experience-timeline.svg" alt="experience timeline" width="100%">
-</div>
-
-<br>
 
 <details open>
 <summary><b>🟡 Founder & Lead Designer — Tarhfam</b> &nbsp;<sub>2024 – Present</sub></summary>
@@ -91,21 +85,13 @@ Designed and developed multiple e-commerce and service websites including Bookiv
 
 <br>
 
-## 🧊 3D Contribution Graph
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/main/profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph">
-</div>
-
-<br>
-
 ## 🐍 Contribution Snake
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/output/github-contribution-grid-snake.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salehsarlak/salehsarlak/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/salehsarlak/salehsarlak/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 </div>
 
