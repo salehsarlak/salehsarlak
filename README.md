@@ -26,7 +26,7 @@
 
 <br>
 
-## 🖥️ whoami
+## 🖥️ who am I
 
 <div align="center">
   <img src="./assets/whoami-ironman.svg" alt="whoami" width="100%">
@@ -54,18 +54,16 @@
 <summary><b>🟡 Founder & Lead Designer — Tarhfam</b> &nbsp;<sub>2024 – Present</sub></summary>
 <br>
 
-Building and managing Tarhfam — designing & developing high-converting WordPress websites for clients across Iran.
-
-<code>WordPress</code> <code>Elementor Pro</code> <code>JetEngine</code> <code>WooCommerce</code> <code>Technical SEO</code>
+Running Tarhfam — a digital agency focused on high-performance web design, WordPress development, SEO, and digital solutions.
+<code>WordPress</code> <code>Php</code> <code>Java Script</code> <code>Claude</code> <code>SEO</code>
 </details>
 
 <details>
 <summary><b>🔵 Web Designer & WordPress Developer — Freelance</b> &nbsp;<sub>2023 – Present</sub></summary>
 <br>
 
-Designed and developed multiple e-commerce and service websites including Bookivery, Patak Shoes, Ressiman and Aman Med Iran.
-
-<code>UI/UX</code> <code>WordPress</code> <code>WooCommerce</code> <code>Elementor</code> <code>SEO</code>
+Designing & developing high-performance WordPress websites — focusing on UI/UX, SEO, speed, and scalable solutions for businesses.
+<code>UI/UX</code> <code>WordPress</code> <code>Php</code> <code>EJava Script</code> <code>Sql</code>
 </details>
 
 <br>
@@ -74,10 +72,10 @@ Designed and developed multiple e-commerce and service websites including Bookiv
 
 | | | |
 |---|---|---|
-| 📚 **Bookivery** | Online bookstore with seller/representative & city-based ordering system | `WordPress` `WooCommerce` |
-| 👟 **Patak Shoes** | E-commerce store for shoes & bags | `WordPress` `WooCommerce` |
-| 🛒 **Ressiman** | Grocery e-commerce platform | `WordPress` `WooCommerce` |
-| 🏥 **Aman Med Iran** | Medical tourism website | `WordPress` `Elementor` |
+| 📚 [**Bookivery**](https://bookivery.ir) | Custom online bookstore with city-based product availability, seller management, inventory, ordering, and delivery logic | `WordPress` `PHP` `JavaScript` |
+| 📖 [**Maz Isfahan**](https://mazesfahan.ir) | Professional online bookstore focused on product presentation, e-commerce functionality, and a clean user experience | `WordPress` `PHP` `JavaScript` |
+| 👟 [**Patak Shoes**](https://patakshoes.ir) | E-commerce website for showcasing and selling shoes and fashion products with a focused shopping experience | `WordPress` `PHP` `JavaScript` |
+| 🏥 [**Aman Med Iran**](https://amanmediran.com) | Medical tourism website designed to present healthcare services and build trust through a professional digital experience | `WordPress` `PHP` `JavaScript` |
 
 <br>
 
