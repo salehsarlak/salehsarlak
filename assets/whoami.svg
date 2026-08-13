@@ -1,21 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310" role="img" aria-label="whoami terminal output for Saleh Sarlak">
-  <rect x="0.5" y="0.5" width="759" height="309" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <rect x="0.5" y="0.5" width="759" height="34" rx="10" fill="#161b22" stroke="#30363d"/>
-  <circle cx="24" cy="17" r="6" fill="#ff5f56"/>
-  <circle cx="44" cy="17" r="6" fill="#ffbd2e"/>
-  <circle cx="64" cy="17" r="6" fill="#27c93f"/>
-  <text x="380" y="21" text-anchor="middle" fill="#8b949e" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="12">saleh@tarhfam: ~</text>
-  <g transform="translate(700, 17)">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="340" rx="16" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
+  <rect width="900" height="36" rx="16" fill="#161b22"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="18" r="6" fill="#27c93f"/>
+  <text x="450" y="23" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="13">saleh@tarhfam: ~</text>
+  <g transform="translate(860,18)">
     <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="3s" repeatCount="indefinite"/>
-    <circle cx="0" cy="0" r="8" fill="none" stroke="#a78bfa" stroke-width="2" stroke-dasharray="12 6"/>
+    <circle r="9" fill="none" stroke="#a78bfa" stroke-width="2" stroke-dasharray="14 8"/>
   </g>
-  <text x="24" y="65" fill="#58a6ff" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15">$ whoami</text>
-  <text x="24" y="92" fill="#c9d1d9" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15"><tspan fill="#ffa657">name</tspan><tspan fill="#484f58">......................</tspan> Saleh Sarlak</text>
-  <text x="24" y="116" fill="#c9d1d9" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15"><tspan fill="#ffa657">role</tspan><tspan fill="#484f58">......................</tspan> Web Designer & WordPress Developer</text>
-  <text x="24" y="140" fill="#c9d1d9" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15"><tspan fill="#ffa657">founder_of</tspan><tspan fill="#484f58">................</tspan> Tarhfam</text>
-  <text x="24" y="164" fill="#c9d1d9" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15"><tspan fill="#ffa657">focus</tspan><tspan fill="#484f58">.....................</tspan> UI/UX · WordPress · Technical SEO · GEO</text>
-  <text x="24" y="188" fill="#c9d1d9" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15"><tspan fill="#ffa657">stack</tspan><tspan fill="#484f58">.....................</tspan> HTML · JavaScript · React · PHP</text>
-  <text x="24" y="212" fill="#c9d1d9" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15"><tspan fill="#ffa657">currently</tspan><tspan fill="#484f58">.................</tspan> Exploring AI-powered automation & SaaS</text>
-  <text x="24" y="248" fill="#58a6ff" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15">$ echo "let's build something great"</text>
-  <text x="24" y="272" font-family="'Consolas','Menlo','DejaVu Sans Mono',monospace" font-size="15"><tspan fill="#7ee787">let's build something great</tspan><tspan fill="#c9d1d9"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▌</tspan></text>
+  <text x="28" y="70" fill="#58a6ff" font-family="monospace" font-size="16">$ whoami</text>
+  <text x="28" y="105" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">name</tspan><tspan fill="#484f58"> .................... </tspan>Saleh Sarlak</text>
+  <text x="28" y="135" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">role</tspan><tspan fill="#484f58"> .................... </tspan>Web Designer & WordPress Developer</text>
+  <text x="28" y="165" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">founder_of</tspan><tspan fill="#484f58"> .............. </tspan>Tarhfam</text>
+  <text x="28" y="195" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">focus</tspan><tspan fill="#484f58"> ................... </tspan>UI/UX · WordPress · Technical SEO · GEO</text>
+  <text x="28" y="225" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">stack</tspan><tspan fill="#484f58"> ................... </tspan>HTML · JavaScript · React · PHP</text>
+  <text x="28" y="255" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">currently</tspan><tspan fill="#484f58"> ............... </tspan>Exploring AI-powered automation & SaaS</text>
+  <text x="28" y="295" fill="#58a6ff" font-family="monospace" font-size="15">$ echo "let's build something great"</text>
+  <text x="28" y="320" fill="#7ee787" font-family="monospace" font-size="15">let's build something great <tspan fill="#c9d1d9"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▌</tspan></text>
 </svg>
