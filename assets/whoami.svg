@@ -1,27 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+<svg width="1160" height="340" viewBox="0 0 1160 340" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
+      <stop offset="0%" stop-color="#1a0000"/>
+      <stop offset="45%" stop-color="#5c0a0a"/>
+      <stop offset="75%" stop-color="#8f0f0f"/>
+      <stop offset="100%" stop-color="#2b0000"/>
     </linearGradient>
+    <radialGradient id="arcGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eafcff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#7df9ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7df9ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="0" y2="-48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7df9ff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#7df9ff" stop-opacity="0.85"/>
+    </linearGradient>
+    <clipPath id="reveal">
+      <rect x="0" y="0" width="0" height="340">
+        <animate attributeName="width"
+                 values="0;1160;1160;0;0"
+                 keyTimes="0;0.22;0.78;0.96;1"
+                 dur="7s"
+                 repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
-  <rect width="900" height="340" rx="16" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
-  <rect width="900" height="36" rx="16" fill="#161b22"/>
-  <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
-  <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
-  <circle cx="62" cy="18" r="6" fill="#27c93f"/>
-  <text x="450" y="23" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="13">saleh@tarhfam: ~</text>
-  <g transform="translate(860,18)">
-    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="3s" repeatCount="indefinite"/>
-    <circle r="9" fill="none" stroke="#a78bfa" stroke-width="2" stroke-dasharray="14 8"/>
+
+  <rect width="1160" height="340" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1158" height="338" rx="15" fill="none" stroke="#ffd700" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- HUD corner brackets -->
+  <g stroke="#ffd700" stroke-width="2.5" fill="none" opacity="0.75" stroke-linecap="round">
+    <path d="M22,26 L22,50 M22,26 L46,26"/>
+    <path d="M1138,26 L1138,50 M1138,26 L1114,26"/>
+    <path d="M22,314 L22,290 M22,314 L46,314"/>
+    <path d="M1138,314 L1138,290 M1138,314 L1114,314"/>
   </g>
-  <text x="28" y="70" fill="#58a6ff" font-family="monospace" font-size="16">$ whoami</text>
-  <text x="28" y="105" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">name</tspan><tspan fill="#484f58"> .................... </tspan>Saleh Sarlak</text>
-  <text x="28" y="135" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">role</tspan><tspan fill="#484f58"> .................... </tspan>Web Designer & WordPress Developer</text>
-  <text x="28" y="165" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">founder_of</tspan><tspan fill="#484f58"> .............. </tspan>Tarhfam</text>
-  <text x="28" y="195" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">focus</tspan><tspan fill="#484f58"> ................... </tspan>UI/UX · WordPress · Technical SEO · GEO</text>
-  <text x="28" y="225" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">stack</tspan><tspan fill="#484f58"> ................... </tspan>HTML · JavaScript · React · PHP</text>
-  <text x="28" y="255" fill="#c9d1d9" font-family="monospace" font-size="15"><tspan fill="#ffa657">currently</tspan><tspan fill="#484f58"> ............... </tspan>Exploring AI-powered automation & SaaS</text>
-  <text x="28" y="295" fill="#58a6ff" font-family="monospace" font-size="15">$ echo "let's build something great"</text>
-  <text x="28" y="320" fill="#7ee787" font-family="monospace" font-size="15">let's build something great <tspan fill="#c9d1d9"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▌</tspan></text>
+
+  <!-- arc reactor / radar emblem, always active -->
+  <g transform="translate(1058,170)">
+    <!-- outer housing rings -->
+    <circle r="50" fill="#0d0d0d" opacity="0.4"/>
+    <circle r="48" fill="none" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <circle r="38" fill="none" stroke="#9fdfe8" stroke-width="1.2" opacity="0.55"/>
+
+    <!-- dial tick marks -->
+    <g stroke="#ffd700" stroke-width="1.5" opacity="0.65">
+      <line x1="0" y1="-48" x2="0" y2="-41"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(45)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(90)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(135)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(180)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(225)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(270)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(315)"/>
+    </g>
+
+    <!-- rotating radar sweep -->
+    <g>
+      <path d="M0,0 L0,-48 A48,48 0 0 1 24,-41.6 Z" fill="url(#sweepGrad)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- pulsing energy core -->
+    <circle r="22" fill="url(#arcGlow)">
+      <animate attributeName="r" values="18;25;18" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="13" fill="#0d0d0d" stroke="#eafcff" stroke-width="1.5"/>
+    <path d="M0,-7 L6,3.5 L-6,3.5 Z" fill="#eafcff"/>
+  </g>
+
+  <!-- terminal content, wiped in left-to-right -->
+  <g clip-path="url(#reveal)" font-family="'Fira Code','Cascadia Code',Consolas,Menlo,monospace">
+    <text x="40" y="56" font-size="19" font-weight="700" fill="#ffd700">gowtham@stark-industries:~$ cat about_me.txt</text>
+
+    <text x="40" y="98" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">name</tspan><tspan fill="#c9a97a">: </tspan><tspan>Gowtham Rajendran</tspan>
+    </text>
+    <text x="40" y="126" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">role</tspan><tspan fill="#c9a97a">: </tspan><tspan>Senior Software Engineer</tspan>
+    </text>
+    <text x="40" y="154" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">based_in</tspan><tspan fill="#c9a97a">: </tspan><tspan>India</tspan>
+    </text>
+    <text x="40" y="182" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">focus</tspan><tspan fill="#c9a97a">: </tspan><tspan>[System Design, Microservices, Cloud-Native Development]</tspan>
+    </text>
+    <text x="40" y="210" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">stack</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Angular, React, Vue.js, Spring Boot, Node.js, MySQL, MongoDB, AWS]</tspan>
+    </text>
+    <text x="40" y="238" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">side_projects</tspan><tspan fill="#c9a97a">: </tspan><tspan>computer vision, WebGL &amp; creative-coding experiments</tspan>
+    </text>
+    <text x="40" y="266" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">currently_building</tspan><tspan fill="#c9a97a">: </tspan><tspan>AI &amp; SaaS products @ Canorouse Technology</tspan>
+    </text>
+    <text x="40" y="294" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">open_to</tspan><tspan fill="#c9a97a">: </tspan><tspan>backend-heavy full-stack roles, cloud &amp; system-design work</tspan>
+    </text>
+  </g>
 </svg>
