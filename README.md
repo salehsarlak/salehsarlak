@@ -29,7 +29,7 @@
 ## 🖥️ whoami
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/whoami.svg" alt="whoami" width="100%">
+  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/whoami-ironman.svg" alt="whoami" width="100%">
 </div>
 
 <br>
