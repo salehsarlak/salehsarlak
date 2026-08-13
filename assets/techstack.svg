@@ -1,51 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+<svg width="1160" height="650" viewBox="0 0 1160 650" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="50%" stop-color="#1e1b4b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <linearGradient id="stormBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04050c"/>
+      <stop offset="40%" stop-color="#0b1230"/>
+      <stop offset="70%" stop-color="#131a3f"/>
+      <stop offset="100%" stop-color="#05060f"/>
     </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="cloudSoft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a3266" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2a3266" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect x="10" y="10" width="880" height="460" rx="20" fill="url(#cardBg)" stroke="#334155" stroke-width="1.5"/>
-  <path d="M30 60 L50 160 L35 160 L60 280 L40 280 L25 380" fill="none" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/>
-  <path d="M870 60 L850 160 L865 160 L840 280 L860 280 L875 380" fill="none" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/>
-  <text x="450" y="48" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="18" font-weight="600">Tech Stack</text>
-  <text x="450" y="85" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">Design</text>
-  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
-    <rect x="140" y="100" width="80" height="32" rx="8" fill="#F24E1E"/><text x="180" y="121" fill="#fff">FIGMA</text>
-    <rect x="235" y="100" width="105" height="32" rx="8" fill="#31A8FF"/><text x="287" y="121" fill="#fff">PHOTOSHOP</text>
-    <rect x="355" y="100" width="105" height="32" rx="8" fill="#FF9A00"/><text x="407" y="121" fill="#fff">ILLUSTRATOR</text>
-    <rect x="475" y="100" width="85" height="32" rx="8" fill="#0055FF"/><text x="517" y="121" fill="#fff">FRAMER</text>
-    <rect x="575" y="100" width="90" height="32" rx="8" fill="#A259FF"/><text x="620" y="121" fill="#fff">ADOBE XD</text>
+
+  <rect width="1160" height="650" rx="16" fill="url(#stormBg)"/>
+  <rect x="1" y="1" width="1158" height="648" rx="15" fill="none" stroke="#9fd8ff" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- storm clouds (soft gradient blobs, no per-frame filter cost) -->
+  <g>
+    <ellipse cx="180" cy="50" rx="200" ry="76" fill="url(#cloudSoft)"/>
+    <ellipse cx="620" cy="28" rx="260" ry="72" fill="url(#cloudSoft)"/>
+    <ellipse cx="980" cy="60" rx="220" ry="76" fill="url(#cloudSoft)"/>
   </g>
-  <text x="450" y="165" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">Frontend</text>
-  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
-    <rect x="120" y="180" width="75" height="32" rx="8" fill="#E34F26"/><text x="157" y="201" fill="#fff">HTML5</text>
-    <rect x="210" y="180" width="65" height="32" rx="8" fill="#1572B6"/><text x="242" y="201" fill="#fff">CSS3</text>
-    <rect x="290" y="180" width="105" height="32" rx="8" fill="#F7DF1E"/><text x="342" y="201" fill="#111">JAVASCRIPT</text>
-    <rect x="410" y="180" width="75" height="32" rx="8" fill="#61DAFB"/><text x="447" y="201" fill="#111">REACT</text>
-    <rect x="500" y="180" width="80" height="32" rx="8" fill="#06B6D4"/><text x="540" y="201" fill="#fff">TAILWIND</text>
-    <rect x="595" y="180" width="70" height="32" rx="8" fill="#CC6699"/><text x="630" y="201" fill="#fff">SASS</text>
+
+  <!-- lightning bolts, flickering -->
+  <g fill="none" stroke="#cfe9ff" stroke-width="3" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M150,0 L130,95 L155,110 L120,235 L148,250 L110,390 L140,405 L100,650" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;0.4;0;0;0;0" keyTimes="0;0.1;0.35;0.4;0.45;0.5;0.7;0.9;1" dur="5.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1010,0 L990,90 L1018,105 L985,225 L1015,242 L980,375 L1008,390 L965,650" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;0.4;0;0;0;0" keyTimes="0;0.2;0.55;0.6;0.65;0.7;0.85;0.97;1" dur="7.4s" repeatCount="indefinite" begin="2.4s"/>
+    </path>
   </g>
-  <text x="450" y="245" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">WordPress / CMS</text>
-  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
-    <rect x="160" y="260" width="105" height="32" rx="8" fill="#21759B"/><text x="212" y="281" fill="#fff">WORDPRESS</text>
-    <rect x="280" y="260" width="110" height="32" rx="8" fill="#92003B"/><text x="335" y="281" fill="#fff">ELEMENTOR</text>
-    <rect x="405" y="260" width="100" height="32" rx="8" fill="#7C3AED"/><text x="455" y="281" fill="#fff">JETENGINE</text>
-    <rect x="520" y="260" width="120" height="32" rx="8" fill="#96588A"/><text x="580" y="281" fill="#fff">WOOCOMMERCE</text>
+
+  <!-- ambient thunder flash -->
+  <rect width="1160" height="650" fill="#dcefff" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0.14;0.03;0;0;0;0" keyTimes="0;0.1;0.35;0.4;0.45;0.5;0.7;0.9;1" dur="5.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- corner lightning-bolt emblem -->
+  <g transform="translate(1092,100)">
+    <path d="M-4,-34 L-26,10 L-6,10 L-14,40 L28,-6 L6,-6 L16,-34 Z" fill="#eaf6ff" filter="url(#glow)" opacity="0.9">
+      <animate attributeName="opacity" values="0.55;0.9;0.55" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-4,-34 L-26,10 L-6,10 L-14,40 L28,-6 L6,-6 L16,-34 Z" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;0;0;0" keyTimes="0;0.35;0.4;0.43;0.48;0.7;1" dur="5.2s" repeatCount="indefinite"/>
+    </path>
   </g>
-  <text x="450" y="325" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">Backend & Database</text>
-  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
-    <rect x="220" y="340" width="60" height="32" rx="8" fill="#777BB4"/><text x="250" y="361" fill="#fff">PHP</text>
-    <rect x="295" y="340" width="80" height="32" rx="8" fill="#4479A1"/><text x="335" y="361" fill="#fff">MYSQL</text>
-    <rect x="390" y="340" width="90" height="32" rx="8" fill="#009688"/><text x="435" y="361" fill="#fff">REST API</text>
-    <rect x="495" y="340" width="70" height="32" rx="8" fill="#F05032"/><text x="530" y="361" fill="#fff">GIT</text>
-  </g>
-  <text x="450" y="405" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">Growth & SEO</text>
-  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
-    <rect x="150" y="420" width="120" height="32" rx="8" fill="#4285F4"/><text x="210" y="441" fill="#fff">TECHNICAL SEO</text>
-    <rect x="285" y="420" width="60" height="32" rx="8" fill="#10B981"/><text x="315" y="441" fill="#fff">GEO</text>
-    <rect x="360" y="420" width="140" height="32" rx="8" fill="#F59E0B"/><text x="430" y="441" fill="#111">CONTENT MARKETING</text>
-    <rect x="515" y="420" width="105" height="32" rx="8" fill="#8B5CF6"/><text x="567" y="441" fill="#fff">AUTOMATION</text>
+
+  <!-- category rows -->
+  <g font-family="Arial, Helvetica, sans-serif">
+
+    <!-- Frontend -->
+    <text x="580" y="66" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Frontend</text>
+    <g font-size="14" font-weight="700">
+      <rect x="143" y="90" width="120" height="38" rx="9" fill="#DD0031"/>
+      <text x="203" y="115" text-anchor="middle" fill="#ffffff" textLength="96" lengthAdjust="spacingAndGlyphs">ANGULAR</text>
+      <rect x="277" y="90" width="100" height="38" rx="9" fill="#20232A"/>
+      <text x="327" y="115" text-anchor="middle" fill="#61DAFB" textLength="76" lengthAdjust="spacingAndGlyphs">REACT</text>
+      <rect x="391" y="90" width="100" height="38" rx="9" fill="#4FC08D"/>
+      <text x="441" y="115" text-anchor="middle" fill="#ffffff" textLength="76" lengthAdjust="spacingAndGlyphs">VUE.JS</text>
+      <rect x="505" y="90" width="145" height="38" rx="9" fill="#3178C6"/>
+      <text x="577.5" y="115" text-anchor="middle" fill="#ffffff" textLength="121" lengthAdjust="spacingAndGlyphs">TYPESCRIPT</text>
+      <rect x="664" y="90" width="145" height="38" rx="9" fill="#F7DF1E"/>
+      <text x="736.5" y="115" text-anchor="middle" fill="#1a1a1a" textLength="121" lengthAdjust="spacingAndGlyphs">JAVASCRIPT</text>
+      <rect x="823" y="90" width="95" height="38" rx="9" fill="#E34F26"/>
+      <text x="870.5" y="115" text-anchor="middle" fill="#ffffff" textLength="71" lengthAdjust="spacingAndGlyphs">HTML5</text>
+      <rect x="932" y="90" width="85" height="38" rx="9" fill="#1572B6"/>
+      <text x="974.5" y="115" text-anchor="middle" fill="#ffffff" textLength="61" lengthAdjust="spacingAndGlyphs">CSS3</text>
+    </g>
+
+    <!-- Backend -->
+    <text x="580" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Backend</text>
+    <g font-size="14" font-weight="700">
+      <rect x="319" y="208" width="150" height="38" rx="9" fill="#6DB33F"/>
+      <text x="394" y="233" text-anchor="middle" fill="#ffffff" textLength="126" lengthAdjust="spacingAndGlyphs">SPRING BOOT</text>
+      <rect x="483" y="208" width="115" height="38" rx="9" fill="#339933"/>
+      <text x="540.5" y="233" text-anchor="middle" fill="#ffffff" textLength="91" lengthAdjust="spacingAndGlyphs">NODE.JS</text>
+      <rect x="612" y="208" width="110" height="38" rx="9" fill="#000000" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="667" y="233" text-anchor="middle" fill="#ffffff" textLength="86" lengthAdjust="spacingAndGlyphs">EXPRESS</text>
+      <rect x="736" y="208" width="105" height="38" rx="9" fill="#E0234E"/>
+      <text x="788.5" y="233" text-anchor="middle" fill="#ffffff" textLength="81" lengthAdjust="spacingAndGlyphs">NESTJS</text>
+    </g>
+
+    <!-- Database -->
+    <text x="580" y="302" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Database</text>
+    <g font-size="14" font-weight="700">
+      <rect x="458" y="326" width="100" height="38" rx="9" fill="#4479A1"/>
+      <text x="508" y="351" text-anchor="middle" fill="#ffffff" textLength="76" lengthAdjust="spacingAndGlyphs">MYSQL</text>
+      <rect x="572" y="326" width="130" height="38" rx="9" fill="#47A248"/>
+      <text x="637" y="351" text-anchor="middle" fill="#ffffff" textLength="106" lengthAdjust="spacingAndGlyphs">MONGODB</text>
+    </g>
+
+    <!-- AI / Computer Vision -->
+    <text x="530" y="420" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">AI / Computer Vision</text>
+    <text x="705" y="420" text-anchor="middle" font-size="12" fill="#9fb3d9">· from side projects</text>
+    <g font-size="14" font-weight="700">
+      <rect x="262" y="444" width="105" height="38" rx="9" fill="#3776AB"/>
+      <text x="314.5" y="469" text-anchor="middle" fill="#ffffff" textLength="81" lengthAdjust="spacingAndGlyphs">PYTHON</text>
+      <rect x="381" y="444" width="115" height="38" rx="9" fill="#5C3EE8"/>
+      <text x="438.5" y="469" text-anchor="middle" fill="#ffffff" textLength="91" lengthAdjust="spacingAndGlyphs">OPENCV</text>
+      <rect x="510" y="444" width="150" height="38" rx="9" fill="#FF6F00"/>
+      <text x="585" y="469" text-anchor="middle" fill="#ffffff" textLength="126" lengthAdjust="spacingAndGlyphs">TENSORFLOW</text>
+      <rect x="674" y="444" width="115" height="38" rx="9" fill="#000000" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="731.5" y="469" text-anchor="middle" fill="#ffffff" textLength="91" lengthAdjust="spacingAndGlyphs">THREE.JS</text>
+      <rect x="803" y="444" width="95" height="38" rx="9" fill="#88CE02"/>
+      <text x="850.5" y="469" text-anchor="middle" fill="#1a1a1a" textLength="71" lengthAdjust="spacingAndGlyphs">GSAP</text>
+    </g>
+
+    <!-- Cloud & DevOps -->
+    <text x="580" y="538" text-anchor="middle" font-size="18" font-weight="700" fill="#eaf6ff">Cloud &amp; DevOps</text>
+    <g font-size="14" font-weight="700">
+      <rect x="351.5" y="562" width="80" height="38" rx="9" fill="#232F3E" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="391.5" y="587" text-anchor="middle" fill="#ffffff" textLength="56" lengthAdjust="spacingAndGlyphs">AWS</text>
+      <rect x="445.5" y="562" width="115" height="38" rx="9" fill="#2496ED"/>
+      <text x="503" y="587" text-anchor="middle" fill="#ffffff" textLength="91" lengthAdjust="spacingAndGlyphs">DOCKER</text>
+      <rect x="574.5" y="562" width="145" height="38" rx="9" fill="#326CE5"/>
+      <text x="647" y="587" text-anchor="middle" fill="#ffffff" textLength="121" lengthAdjust="spacingAndGlyphs">KUBERNETES</text>
+      <rect x="733.5" y="562" width="75" height="38" rx="9" fill="#F05032"/>
+      <text x="771" y="587" text-anchor="middle" fill="#ffffff" textLength="51" lengthAdjust="spacingAndGlyphs">GIT</text>
+    </g>
+
   </g>
 </svg>
