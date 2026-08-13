@@ -1,12 +1,12 @@
 <svg width="1160" height="260" viewBox="0 0 1160 260" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
 
-    <!-- Tarhfam Blue Background -->
-    <linearGradient id="tarhfamBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06142f"/>
-      <stop offset="45%" stop-color="#0b2d63"/>
-      <stop offset="75%" stop-color="#1456b8"/>
-      <stop offset="100%" stop-color="#071a3d"/>
+    <linearGradient id="blueBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07142f"/>
+      <stop offset="45%" stop-color="#102d66"/>
+      <stop offset="75%" stop-color="#1747a6"/>
+      <stop offset="100%" stop-color="#07142f"/>
     </linearGradient>
 
     <radialGradient id="blueGlow" cx="50%" cy="85%" r="70%">
@@ -14,7 +14,7 @@
       <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
     </radialGradient>
 
-    <filter id="blueGlowFilter" x="-60%" y="-60%" width="220%" height="220%">
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="2.2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -24,22 +24,11 @@
 
   </defs>
 
+
   <!-- Background -->
-  <rect
-    width="1160"
-    height="260"
-    rx="16"
-    fill="url(#tarhfamBg)"
-  />
+  <rect width="1160" height="260" rx="16" fill="url(#blueBg)"/>
+  <rect width="1160" height="260" rx="16" fill="url(#blueGlow)"/>
 
-  <rect
-    width="1160"
-    height="260"
-    rx="16"
-    fill="url(#blueGlow)"
-  />
-
-  <!-- Border -->
   <rect
     x="1"
     y="1"
@@ -47,13 +36,15 @@
     height="258"
     rx="15"
     fill="none"
-    stroke="#60a5fa"
-    stroke-opacity="0.32"
+    stroke="#60A5FA"
+    stroke-opacity="0.3"
     stroke-width="1.5"
   />
 
-  <!-- Rising digital particles -->
-  <g fill="#93c5fd">
+
+  <!-- Floating particles -->
+
+  <g fill="#60A5FA">
 
     <circle cx="230" cy="190" r="2.4" opacity="0">
       <animate
@@ -109,7 +100,7 @@
       cy="190"
       r="2.2"
       opacity="0"
-      fill="#dbeafe"
+      fill="#DBEAFE"
     >
       <animate
         attributeName="cy"
@@ -131,27 +122,29 @@
 
 
   <!-- Timeline -->
+
   <path
     id="timelinePath"
     d="M145,190 L1015,190"
     fill="none"
-    stroke="#163b78"
+    stroke="#173d83"
     stroke-width="3"
   />
 
   <path
     d="M145,190 L1015,190"
     fill="none"
-    stroke="#60a5fa"
+    stroke="#3B82F6"
     stroke-width="1.5"
-    filter="url(#blueGlowFilter)"
-    opacity="0.8"
+    filter="url(#glow)"
+    opacity="0.75"
   />
 
 
-  <!-- Traveling digital pulse -->
+  <!-- Traveling pulse -->
 
-  <circle r="3" fill="#bfdbfe" opacity="0.35">
+  <circle r="3" fill="#BFDBFE" opacity="0.35">
+
     <animateMotion
       dur="4s"
       repeatCount="indefinite"
@@ -159,9 +152,11 @@
     >
       <mpath href="#timelinePath"/>
     </animateMotion>
+
   </circle>
 
-  <circle r="4" fill="#93c5fd" opacity="0.65">
+  <circle r="4" fill="#60A5FA" opacity="0.6">
+
     <animateMotion
       dur="4s"
       repeatCount="indefinite"
@@ -169,25 +164,26 @@
     >
       <mpath href="#timelinePath"/>
     </animateMotion>
+
   </circle>
 
   <circle
     r="6"
-    fill="#ffffff"
-    filter="url(#blueGlowFilter)"
+    fill="#EFF6FF"
+    filter="url(#glow)"
   >
+
     <animateMotion
       dur="4s"
       repeatCount="indefinite"
     >
       <mpath href="#timelinePath"/>
     </animateMotion>
+
   </circle>
 
 
-  <!-- ========================================================= -->
-  <!-- NODE 1 — شروع مسیر -->
-  <!-- ========================================================= -->
+  <!-- ==================== NODE 1 ==================== -->
 
   <g transform="translate(145,190)">
 
@@ -196,24 +192,25 @@
       y1="0"
       x2="0"
       y2="-64"
-      stroke="#2563eb"
+      stroke="#1D4ED8"
       stroke-width="2"
     />
 
     <circle
       r="16"
       fill="none"
-      stroke="#93c5fd"
+      stroke="#60A5FA"
       stroke-width="1.5"
-      opacity="0.7"
+      opacity="0.65"
     />
 
     <circle
       r="8"
-      fill="#2563eb"
+      fill="#2563EB"
     />
 
   </g>
+
 
   <g
     font-family="Arial, Helvetica, sans-serif"
@@ -226,8 +223,8 @@
       width="260"
       height="70"
       rx="10"
-      fill="#071a3d"
-      stroke="#60a5fa"
+      fill="#081a3c"
+      stroke="#3B82F6"
       stroke-opacity="0.5"
     />
 
@@ -236,16 +233,16 @@
       y="52"
       font-size="16"
       font-weight="700"
-      fill="#ffffff"
+      fill="#FFFFFF"
     >
-      2023 · شروع مسیر
+      2023 · Freelance
     </text>
 
     <text
       x="145"
-      y="76"
+      y="81"
       font-size="13"
-      fill="#93c5fd"
+      fill="#93C5FD"
     >
       Web Designer &amp; WordPress Developer
     </text>
@@ -253,9 +250,7 @@
   </g>
 
 
-  <!-- ========================================================= -->
-  <!-- NODE 2 — توسعه وردپرس -->
-  <!-- ========================================================= -->
+  <!-- ==================== NODE 2 ==================== -->
 
   <g transform="translate(435,190)">
 
@@ -264,24 +259,25 @@
       y1="0"
       x2="0"
       y2="-64"
-      stroke="#2563eb"
+      stroke="#1D4ED8"
       stroke-width="2"
     />
 
     <circle
       r="16"
       fill="none"
-      stroke="#93c5fd"
+      stroke="#60A5FA"
       stroke-width="1.5"
-      opacity="0.7"
+      opacity="0.65"
     />
 
     <circle
       r="8"
-      fill="#2563eb"
+      fill="#2563EB"
     />
 
   </g>
+
 
   <g
     font-family="Arial, Helvetica, sans-serif"
@@ -294,8 +290,8 @@
       width="260"
       height="70"
       rx="10"
-      fill="#071a3d"
-      stroke="#60a5fa"
+      fill="#081a3c"
+      stroke="#3B82F6"
       stroke-opacity="0.5"
     />
 
@@ -304,26 +300,24 @@
       y="52"
       font-size="16"
       font-weight="700"
-      fill="#ffffff"
+      fill="#FFFFFF"
     >
-      WordPress · Development
+      2024 · Web Development
     </text>
 
     <text
       x="435"
-      y="76"
+      y="81"
       font-size="13"
-      fill="#93c5fd"
+      fill="#93C5FD"
     >
-      Elementor · JetEngine · WooCommerce
+      WordPress · Elementor · WooCommerce
     </text>
 
   </g>
 
 
-  <!-- ========================================================= -->
-  <!-- NODE 3 — توسعه پیشرفته -->
-  <!-- ========================================================= -->
+  <!-- ==================== NODE 3 ==================== -->
 
   <g transform="translate(725,190)">
 
@@ -332,24 +326,25 @@
       y1="0"
       x2="0"
       y2="-64"
-      stroke="#2563eb"
+      stroke="#1D4ED8"
       stroke-width="2"
     />
 
     <circle
       r="16"
       fill="none"
-      stroke="#93c5fd"
+      stroke="#60A5FA"
       stroke-width="1.5"
-      opacity="0.7"
+      opacity="0.65"
     />
 
     <circle
       r="8"
-      fill="#2563eb"
+      fill="#2563EB"
     />
 
   </g>
+
 
   <g
     font-family="Arial, Helvetica, sans-serif"
@@ -362,8 +357,8 @@
       width="260"
       height="70"
       rx="10"
-      fill="#071a3d"
-      stroke="#60a5fa"
+      fill="#081a3c"
+      stroke="#3B82F6"
       stroke-opacity="0.5"
     />
 
@@ -372,26 +367,24 @@
       y="52"
       font-size="16"
       font-weight="700"
-      fill="#ffffff"
+      fill="#FFFFFF"
     >
-      Advanced Web Development
+      2025 · Tarhfam
     </text>
 
     <text
       x="725"
-      y="76"
+      y="81"
       font-size="13"
-      fill="#93c5fd"
+      fill="#93C5FD"
     >
-      PHP · JavaScript · React · MySQL
+      Digital Agency &amp; Web Development
     </text>
 
   </g>
 
 
-  <!-- ========================================================= -->
-  <!-- NODE 4 — Tarhfam -->
-  <!-- ========================================================= -->
+  <!-- ==================== NODE 4 ==================== -->
 
   <g transform="translate(1015,190)">
 
@@ -400,18 +393,17 @@
       y1="0"
       x2="0"
       y2="-64"
-      stroke="#93c5fd"
+      stroke="#93C5FD"
       stroke-width="2"
     />
 
     <circle
       r="22"
       fill="none"
-      stroke="#93c5fd"
+      stroke="#60A5FA"
       stroke-width="1.5"
-      filter="url(#blueGlowFilter)"
+      filter="url(#glow)"
     >
-
       <animate
         attributeName="r"
         values="17;24;17"
@@ -425,13 +417,12 @@
         dur="1.8s"
         repeatCount="indefinite"
       />
-
     </circle>
 
     <circle
       r="9"
-      fill="#ffffff"
-      filter="url(#blueGlowFilter)"
+      fill="#EFF6FF"
+      filter="url(#glow)"
     />
 
   </g>
@@ -448,9 +439,9 @@
       width="260"
       height="70"
       rx="10"
-      fill="#0b2d63"
-      stroke="#bfdbfe"
-      stroke-opacity="0.7"
+      fill="#0D2452"
+      stroke="#93C5FD"
+      stroke-opacity="0.65"
     />
 
     <text
@@ -458,18 +449,18 @@
       y="52"
       font-size="16"
       font-weight="700"
-      fill="#ffffff"
+      fill="#FFFFFF"
     >
       2026 · Tarhfam
     </text>
 
     <text
       x="1015"
-      y="76"
+      y="81"
       font-size="13"
-      fill="#bfdbfe"
+      fill="#BFDBFE"
     >
-      Digital Agency &amp; Web Solutions
+      Founder &amp; Lead Web Designer
     </text>
 
   </g>
