@@ -29,7 +29,7 @@
 ## 🖥️ whoami
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/whoami-ironman.svg" alt="whoami" width="100%">
+  <img src="./assets/whoami-ironman.svg" alt="whoami" width="100%">
 </div>
 
 <br>
@@ -37,7 +37,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/techstack.svg" alt="tech stack" width="100%">
+  <img src="./assets/techstack.svg" alt="tech stack" width="100%">
 </div>
 
 <br>
@@ -45,7 +45,7 @@
 ## 💼 Experience
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/experience-timeline.svg" alt="experience timeline" width="100%">
+  <img src="./assets/experience-timeline.svg" alt="experience timeline" width="100%">
 </div>
 
 <br>
