@@ -70,12 +70,31 @@ Designing & developing high-performance WordPress websites — focusing on UI/UX
 
 ## 🎨 Featured Projects
 
-| | | |
-|---|---|---|
-| 📚 [**Bookivery**](https://bookivery.ir) | Custom online bookstore with city-based product availability, seller management, inventory, ordering, and delivery logic | `WordPress` `PHP` `JavaScript` |
-| 📖 [**Maz Isfahan**](https://mazesfahan.ir) | Professional online bookstore focused on product presentation, e-commerce functionality, and a clean user experience | `WordPress` `PHP` `JavaScript` |
-| 👟 [**Patak Shoes**](https://patakshoes.ir) | E-commerce website for showcasing and selling shoes and fashion products with a focused shopping experience | `WordPress` `PHP` `JavaScript` |
-| 🏥 [**Aman Med Iran**](https://amanmediran.com) | Medical tourism website designed to present healthcare services and build trust through a professional digital experience | `WordPress` `PHP` `JavaScript` |
+### 📚 [Bookivery](https://bookivery.ir)
+Custom online bookstore with city-based product availability, seller management, inventory, ordering, and delivery logic.
+
+`WordPress` · `PHP` · `JavaScript`
+
+---
+
+### 📖 [Maz Isfahan](https://mazesfahan.ir)
+Professional online bookstore focused on product presentation, e-commerce functionality, and a clean user experience.
+
+`WordPress` · `PHP` · `JavaScript`
+
+---
+
+### 👟 [Patak Shoes](https://patakshoes.ir)
+E-commerce website for showcasing and selling shoes and fashion products with a focused shopping experience.
+
+`WordPress` · `PHP` · `JavaScript`
+
+---
+
+### 🏥 [Aman Med Iran](https://amanmediran.com)
+Medical tourism website designed to present healthcare services and build trust through a professional digital experience.
+
+`WordPress` · `PHP` · `JavaScript`
 
 <br>
 
