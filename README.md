@@ -47,7 +47,7 @@
 ## 💼 Experience
 
 <div align="center">
-  <img src="./assets/experience-timeline.svg" alt="experience timeline" width="100%">
+  <img src="./assets/experience-timeline.svg" alt="Experience timeline" width="100%">
 </div>
 
 <br>
