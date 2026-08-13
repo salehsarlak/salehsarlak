@@ -101,9 +101,15 @@ Medical tourism website designed to present healthcare services and build trust 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehsarlak&theme=tokyonight&hide_border=true&border_radius=12&short_numbers=true"/>
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&theme=tokyo-night&hide_border=true&area=true"/>
+
+<!-- تصویر اول با فاصله 12px از پایین -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=salehsarlak&theme=tokyonight&hide_border=true&border_radius=12&short_numbers=true" style="margin-bottom: 12px;"/>
+
+<br>
+
+<!-- تصویر دوم -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&theme=tokyo-night&hide_border=true&area=true"/>
+
 </div>
 
 <br>
@@ -112,7 +118,8 @@ Medical tourism website designed to present healthcare services and build trust 
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph">
+<!-- تصویر گراف سه‌بعدی با border-radius 20px -->
+<img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph" style="border-radius: 20px; width: 100%; max-width: 800px;">
 
 </div>
 
