@@ -1,11 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="salehsarlak's GitHub profile" src="dark_mode.svg" width="100%" />
-</picture>
-
-<br/>
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366f1,50:8b5cf6,100:ec4899&height=6&section=header" width="100%">
@@ -37,7 +29,7 @@
 ## 🖥️ whoami
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/whoami.svg" alt="whoami" width="100%">
+  <img src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/main/assets/whoami-ironman.svg" alt="whoami" width="100%">
 </div>
 
 <br>
@@ -45,12 +37,18 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/main/assets/techstack.svg" alt="tech stack" width="100%">
+  <img src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/main/assets/techstack-thor.svg" alt="tech stack" width="100%">
 </div>
 
 <br>
 
 ## 💼 Experience
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/main/assets/experience-timeline.svg" alt="experience timeline" width="100%">
+</div>
+
+<br>
 
 <details open>
 <summary><b>🟡 Founder & Lead Designer — Tarhfam</b> &nbsp;<sub>2024 – Present</sub></summary>
@@ -76,24 +74,27 @@ Designed and developed multiple e-commerce and service websites including Bookiv
 
 | | | |
 |---|---|---|
-| 📚 **[Bookivery](https://tarhfam.ir)** | Online bookstore with seller/representative & city-based ordering system | `WordPress` `WooCommerce` |
-| 👟 **[Patak Shoes](https://tarhfam.ir)** | E-commerce store for shoes & bags | `WordPress` `WooCommerce` |
-| 🛒 **[Ressiman](https://tarhfam.ir)** | Grocery e-commerce platform | `WordPress` `WooCommerce` |
-| 🏥 **[Aman Med Iran](https://tarhfam.ir)** | Medical tourism website | `WordPress` `Elementor` |
+| 📚 **Bookivery** | Online bookstore with seller/representative & city-based ordering system | `WordPress` `WooCommerce` |
+| 👟 **Patak Shoes** | E-commerce store for shoes & bags | `WordPress` `WooCommerce` |
+| 🛒 **Ressiman** | Grocery e-commerce platform | `WordPress` `WooCommerce` |
+| 🏥 **Aman Med Iran** | Medical tourism website | `WordPress` `Elementor` |
 
 <br>
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=salehsarlak&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehsarlak&layout=compact&theme=radical&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehsarlak&theme=tokyonight&hide_border=true&border_radius=12&short_numbers=true"/>
+  <br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&theme=tokyo-night&hide_border=true&area=true"/>
 </div>
 
 <br>
 
+## 🧊 3D Contribution Graph
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehsarlak&theme=radical&hide_border=true&border_radius=12" />
+  <img src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/main/profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph">
 </div>
 
 <br>
@@ -102,9 +103,9 @@ Designed and developed multiple e-commerce and service websites including Bookiv
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salehsarlak/salehsarlak/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/salehsarlak/salehsarlak/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/salehsarlak/salehsarlak/output/github-contribution-grid-snake.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/salehsarlak/Gowtham-R03/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 </div>
 
