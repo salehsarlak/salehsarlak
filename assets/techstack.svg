@@ -1,58 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Tech Stack">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a"/>
       <stop offset="50%" stop-color="#1e1b4b"/>
       <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
-  <rect x="40" y="20" width="820" height="480" rx="24" fill="url(#cardBg)" stroke="#334155" stroke-width="1.5"/>
-  <path d="M55 80 L70 180 L50 180 L80 320 L55 320 L40 420" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" opacity="0.7" filter="url(#glow)"/>
-  <path d="M845 80 L830 180 L850 180 L820 320 L845 320 L860 420" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" opacity="0.7" filter="url(#glow)"/>
-  <text x="450" y="55" text-anchor="middle" fill="#e2e8f0" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600">Tech Stack</text>
-  <text x="450" y="95" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Design</text>
-  <g transform="translate(450, 115)">
-    <rect x="-280" y="0" width="70" height="28" rx="8" fill="#F24E1E"/><text x="-245" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">FIGMA</text>
-    <rect x="-200" y="0" width="95" height="28" rx="8" fill="#31A8FF"/><text x="-152" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">PHOTOSHOP</text>
-    <rect x="-95" y="0" width="95" height="28" rx="8" fill="#FF9A00"/><text x="-47" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">ILLUSTRATOR</text>
-    <rect x="10" y="0" width="75" height="28" rx="8" fill="#0055FF"/><text x="47" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">FRAMER</text>
-    <rect x="95" y="0" width="70" height="28" rx="8" fill="#A259FF"/><text x="130" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">ADOBE XD</text>
+  <rect x="10" y="10" width="880" height="460" rx="20" fill="url(#cardBg)" stroke="#334155" stroke-width="1.5"/>
+  <path d="M30 60 L50 160 L35 160 L60 280 L40 280 L25 380" fill="none" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/>
+  <path d="M870 60 L850 160 L865 160 L840 280 L860 280 L875 380" fill="none" stroke="#a78bfa" stroke-width="2.5" opacity="0.6"/>
+  <text x="450" y="48" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="18" font-weight="600">Tech Stack</text>
+  <text x="450" y="85" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">Design</text>
+  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+    <rect x="140" y="100" width="80" height="32" rx="8" fill="#F24E1E"/><text x="180" y="121" fill="#fff">FIGMA</text>
+    <rect x="235" y="100" width="105" height="32" rx="8" fill="#31A8FF"/><text x="287" y="121" fill="#fff">PHOTOSHOP</text>
+    <rect x="355" y="100" width="105" height="32" rx="8" fill="#FF9A00"/><text x="407" y="121" fill="#fff">ILLUSTRATOR</text>
+    <rect x="475" y="100" width="85" height="32" rx="8" fill="#0055FF"/><text x="517" y="121" fill="#fff">FRAMER</text>
+    <rect x="575" y="100" width="90" height="32" rx="8" fill="#A259FF"/><text x="620" y="121" fill="#fff">ADOBE XD</text>
   </g>
-  <text x="450" y="175" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Frontend</text>
-  <g transform="translate(450, 195)">
-    <rect x="-260" y="0" width="70" height="28" rx="8" fill="#E34F26"/><text x="-225" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">HTML5</text>
-    <rect x="-180" y="0" width="60" height="28" rx="8" fill="#1572B6"/><text x="-150" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">CSS3</text>
-    <rect x="-110" y="0" width="95" height="28" rx="8" fill="#F7DF1E"/><text x="-62" y="19" text-anchor="middle" fill="#111" font-family="system-ui, sans-serif" font-size="11" font-weight="600">JAVASCRIPT</text>
-    <rect x="-5" y="0" width="70" height="28" rx="8" fill="#61DAFB"/><text x="30" y="19" text-anchor="middle" fill="#111" font-family="system-ui, sans-serif" font-size="11" font-weight="600">REACT</text>
-    <rect x="75" y="0" width="70" height="28" rx="8" fill="#06B6D4"/><text x="110" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">TAILWIND</text>
-    <rect x="155" y="0" width="55" height="28" rx="8" fill="#CC6699"/><text x="182" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">SASS</text>
+  <text x="450" y="165" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">Frontend</text>
+  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+    <rect x="120" y="180" width="75" height="32" rx="8" fill="#E34F26"/><text x="157" y="201" fill="#fff">HTML5</text>
+    <rect x="210" y="180" width="65" height="32" rx="8" fill="#1572B6"/><text x="242" y="201" fill="#fff">CSS3</text>
+    <rect x="290" y="180" width="105" height="32" rx="8" fill="#F7DF1E"/><text x="342" y="201" fill="#111">JAVASCRIPT</text>
+    <rect x="410" y="180" width="75" height="32" rx="8" fill="#61DAFB"/><text x="447" y="201" fill="#111">REACT</text>
+    <rect x="500" y="180" width="80" height="32" rx="8" fill="#06B6D4"/><text x="540" y="201" fill="#fff">TAILWIND</text>
+    <rect x="595" y="180" width="70" height="32" rx="8" fill="#CC6699"/><text x="630" y="201" fill="#fff">SASS</text>
   </g>
-  <text x="450" y="255" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">WordPress / CMS</text>
-  <g transform="translate(450, 275)">
-    <rect x="-220" y="0" width="95" height="28" rx="8" fill="#21759B"/><text x="-172" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">WORDPRESS</text>
-    <rect x="-115" y="0" width="100" height="28" rx="8" fill="#92003B"/><text x="-65" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">ELEMENTOR</text>
-    <rect x="-5" y="0" width="90" height="28" rx="8" fill="#7C3AED"/><text x="40" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">JETENGINE</text>
-    <rect x="95" y="0" width="105" height="28" rx="8" fill="#96588A"/><text x="147" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">WOOCOMMERCE</text>
+  <text x="450" y="245" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">WordPress / CMS</text>
+  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+    <rect x="160" y="260" width="105" height="32" rx="8" fill="#21759B"/><text x="212" y="281" fill="#fff">WORDPRESS</text>
+    <rect x="280" y="260" width="110" height="32" rx="8" fill="#92003B"/><text x="335" y="281" fill="#fff">ELEMENTOR</text>
+    <rect x="405" y="260" width="100" height="32" rx="8" fill="#7C3AED"/><text x="455" y="281" fill="#fff">JETENGINE</text>
+    <rect x="520" y="260" width="120" height="32" rx="8" fill="#96588A"/><text x="580" y="281" fill="#fff">WOOCOMMERCE</text>
   </g>
-  <text x="450" y="335" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Backend & Database</text>
-  <g transform="translate(450, 355)">
-    <rect x="-180" y="0" width="55" height="28" rx="8" fill="#777BB4"/><text x="-152" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">PHP</text>
-    <rect x="-115" y="0" width="70" height="28" rx="8" fill="#4479A1"/><text x="-80" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">MYSQL</text>
-    <rect x="-35" y="0" width="80" height="28" rx="8" fill="#009688"/><text x="5" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">REST API</text>
-    <rect x="55" y="0" width="70" height="28" rx="8" fill="#F05032"/><text x="90" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">GIT</text>
+  <text x="450" y="325" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">Backend & Database</text>
+  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+    <rect x="220" y="340" width="60" height="32" rx="8" fill="#777BB4"/><text x="250" y="361" fill="#fff">PHP</text>
+    <rect x="295" y="340" width="80" height="32" rx="8" fill="#4479A1"/><text x="335" y="361" fill="#fff">MYSQL</text>
+    <rect x="390" y="340" width="90" height="32" rx="8" fill="#009688"/><text x="435" y="361" fill="#fff">REST API</text>
+    <rect x="495" y="340" width="70" height="32" rx="8" fill="#F05032"/><text x="530" y="361" fill="#fff">GIT</text>
   </g>
-  <text x="450" y="415" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Growth & SEO</text>
-  <g transform="translate(450, 435)">
-    <rect x="-200" y="0" width="110" height="28" rx="8" fill="#4285F4"/><text x="-145" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">TECHNICAL SEO</text>
-    <rect x="-80" y="0" width="55" height="28" rx="8" fill="#10B981"/><text x="-52" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">GEO</text>
-    <rect x="-15" y="0" width="120" height="28" rx="8" fill="#F59E0B"/><text x="45" y="19" text-anchor="middle" fill="#111" font-family="system-ui, sans-serif" font-size="11" font-weight="600">CONTENT MARKETING</text>
-    <rect x="115" y="0" width="95" height="28" rx="8" fill="#8B5CF6"/><text x="162" y="19" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="600">AUTOMATION</text>
+  <text x="450" y="405" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">Growth & SEO</text>
+  <g font-family="system-ui,sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+    <rect x="150" y="420" width="120" height="32" rx="8" fill="#4285F4"/><text x="210" y="441" fill="#fff">TECHNICAL SEO</text>
+    <rect x="285" y="420" width="60" height="32" rx="8" fill="#10B981"/><text x="315" y="441" fill="#fff">GEO</text>
+    <rect x="360" y="420" width="140" height="32" rx="8" fill="#F59E0B"/><text x="430" y="441" fill="#111">CONTENT MARKETING</text>
+    <rect x="515" y="420" width="105" height="32" rx="8" fill="#8B5CF6"/><text x="567" y="441" fill="#fff">AUTOMATION</text>
   </g>
 </svg>
