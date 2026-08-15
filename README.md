@@ -95,11 +95,21 @@
 <br>
 
 <!-- ===== GITHUB ANALYTICS ===== -->
-<h2>📊 GitHub Analytics</h2>
+## 📊 GitHub Analytics
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehsarlak&theme=tokyonight&hide_border=true&border_radius=12&short_numbers=true" alt="GitHub Streak">
-  <br><br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Activity Graph">
+
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=salehsarlak&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=EC4899&text_color=C9D1D9&ring_color=8B5CF6&border_radius=12" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehsarlak&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&border_radius=12" />
+
+  <br/><br/>
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehsarlak&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=EC4899&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&border_radius=12" />
+
+  <br/><br/>
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=EC4899&point=8B5CF6&area=true&area_color=8B5CF6" />
+
 </div>
 
 <br>
