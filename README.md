@@ -100,12 +100,31 @@ Medical tourism website designed to present healthcare services and build trust 
 
 <br>
 
-## 📊 GitHub Analytics
+<br>
+
+## ⚡ Developer Activity
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehsarlak&theme=tokyonight&hide_border=true&border_radius=12&short_numbers=true"/>
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&theme=tokyo-night&hide_border=true&area=true"/>
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+<img src="https://github-readme-stats.vercel.app/api?username=salehsarlak&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github&include_all_commits=true" width="100%">
+
+</td>
+<td align="center" width="50%">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehsarlak&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&langs_count=8" width="100%">
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=EC4899&area=true&hide_border=true&radius=12" width="100%">
+
 </div>
 
 <br>
