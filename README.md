@@ -107,8 +107,8 @@
 
   <br/><br/>
 
-  <!-- Streak -->
-  <img src="https://streak-stats.demolab.com/?user=salehsarlak&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=EC4899&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&border_radius=12" alt="GitHub Streak" />
+  <!-- Streak (Working Instance) -->
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=salehsarlak&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=EC4899&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&border_radius=12" alt="GitHub Streak" />
 
   <br/><br/>
 
