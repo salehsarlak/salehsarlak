@@ -36,8 +36,35 @@
 
 <!-- ===== TECH STACK ===== -->
 <h2>🛠️ Tech Stack</h2>
+
 <div align="center">
-  <img src="./assets/techstack.svg" alt="tech stack" width="100%">
+
+### Frontend & Frameworks
+<p>
+  <img src="https://skillicons.dev/icons?i=nextjs,react,js,html,css,tailwind,bootstrap" alt="Frontend" />
+</p>
+
+### WordPress Ecosystem
+<p>
+  <img src="https://skillicons.dev/icons?i=wordpress,php,mysql,jquery" alt="WordPress" />
+</p>
+
+### APIs & Tools
+<p>
+  <img src="https://img.shields.io/badge/RESTful%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="RESTful API">
+  <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON">
+  <img src="https://img.shields.io/badge/AJAX-1572B6?style=for-the-badge&logo=javascript&logoColor=white" alt="AJAX">
+  <img src="https://img.shields.io/badge/Fetch%20API-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Fetch API">
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios">
+</p>
+
+### Additional
+<p>
+  <img src="https://img.shields.io/badge/ECMAScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="ECMAScript">
+  <img src="https://img.shields.io/badge/Elementor-92003B?style=for-the-badge&logo=elementor&logoColor=white" alt="Elementor">
+  <img src="https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white" alt="WooCommerce">
+</p>
+
 </div>
 
 <br>
@@ -94,28 +121,13 @@
 
 <br>
 
-<!-- ===== GITHUB ANALYTICS ===== -->
-## 📊 GitHub Analytics
+<!-- ===== GITHUB ACTIVITY ===== -->
+## 📊 GitHub Activity
 
 <div align="center">
-
-  <!-- Stats Card -->
-  <img height="180" src="https://ghstats.dev/api/card?username=salehsarlak&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub Stats" />
-  
-  <!-- Top Languages -->
-  <img height="180" src="https://edge-readme-stats.dancodes.online/langs?username=salehsarlak&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" />
-
-  <br/><br/>
-
-  <!-- Streak (Working Instance) -->
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=salehsarlak&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=EC4899&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&border_radius=12" alt="GitHub Streak" />
-
-  <br/><br/>
-
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=EC4899&point=8B5CF6&area=true&area_color=8B5CF6" alt="Activity Graph" />
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehsarlak&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=EC4899&point=8B5CF6&area=true&area_color=8B5CF6" alt="GitHub Activity Graph" />
 </div>
+
 <br>
 
 <!-- ===== 3D CONTRIBUTION GRAPH ===== -->
