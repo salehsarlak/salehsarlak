@@ -125,7 +125,7 @@
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/salehsarlak/GitHub-Portfolio/main/Minimal/assets/github-snapshot.svg" width="100%" alt="GitHub Activity" />
+  <img src="./assets/github-snapshot.svg" width="100%" alt="GitHub Activity" />
 </div>
 
 <br>
