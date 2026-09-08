@@ -125,9 +125,7 @@
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img height="180" src="https://ghstats.dev/api/card?username=salehsarlak&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub Stats" />
-  <br/><br/>
-  <img src="https://streak-stats.demolab.com/?user=salehsarlak&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=EC4899&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&border_radius=12" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/salehsarlak/GitHub-Portfolio/main/Minimal/assets/github-snapshot.svg" width="100%" alt="GitHub Activity" />
 </div>
 
 <br>
