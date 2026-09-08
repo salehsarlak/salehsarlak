@@ -1,1 +1,66 @@
-PLACEHOLDER2
+name: Update GitHub Snapshot
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 3 * * *"
+
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-github-snapshot.py"
+      - ".github/workflows/update-github-snapshot.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-snapshot-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate GitHub snapshot
+        id: generate
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python scripts/generate-github-snapshot.py
+          if [[ ! -f "assets/github-snapshot.svg" ]]; then
+            echo "Expected SVG was not generated: assets/github-snapshot.svg" >&2
+            exit 1
+          fi
+          echo "svg_path=assets/github-snapshot.svg" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-snapshot.svg
+          if git diff --cached --quiet; then
+            echo "GitHub snapshot is already up to date."
+            exit 0
+          fi
+          git commit -m "chore: update GitHub activity snapshot"
+          git pull --rebase
+          git push
